@@ -10,8 +10,8 @@ K-NearestNeighbor，K-最近邻算法
 
 2.影响算法准确度的因素：
 1) 距离度量：常见的距离公式
-(1)曼哈顿距离（Manhattan distance）
-
+(1)曼哈顿距离（Manhattan distance）:|x1-x2|+|y1-y2|
+(2)欧式距离（Euclidean Metric）：√(〖(x_1-x_2)〗^2+〖(y_1-y_2)〗^2 )
 
 2) K值选择（超参数调优）
 
