@@ -1,8 +1,7 @@
 python3.6 (64bit)
 
-fin+r
-
-cmd
+1.fin+r  -->  cmd
+2.打开python3.6安装文件夹 --> 文件夹地址栏输入cmd  -->  pip install ...
 
 pip install tensorFlow==1.5.0
 
@@ -10,6 +9,8 @@ pip install torch==1.2.0+cpu torchvision==0.4.0+cpu -f https://download.pytorch.
 
 pip install opencv-python
 Successfully installed opencv-python-4.1.2.30
+pip install opencv-python==3.2.0.6  
+#建议用3.2, 4.1有些处理函数不能用，如sift
 
 pip install tqdm
 Successfully installed tqdm-4.40.2
